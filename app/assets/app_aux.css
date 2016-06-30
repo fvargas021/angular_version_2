@@ -1,0 +1,15 @@
+a:link{
+  text-decoration: none;   
+}   
+.h1-margin{
+  margin-left: 45px;
+}
+.img-margins{
+  float: right; 
+  margin-left: 5px; 
+  margin-bottom: 5px; 
+  margin-top: 15px;
+}
+.button-margin{
+  margin-left: inherit;
+}
