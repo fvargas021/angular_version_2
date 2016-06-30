@@ -40,10 +40,10 @@
                 <h2>{{item.title}}</h2>
                 <h4>{{item.published_date | date : format : longDate}}</h4>
                 <p>{{item.abstract}}</p>
-                <h5 ng-if="ul.selected.subsection !== ''">
+                <h5 ng-if="item.subsection !== ''">
                   {{ "Section:" }} {{item.section}} / {{item.subsection}}
                 </h5>
-                <h5 ng-if="ul.selected.subsection == ''">
+                <h5 ng-if="item.subsection == ''">
                   {{ "Section:" }} {{item.section}} 
                 </h5>
               </div>
